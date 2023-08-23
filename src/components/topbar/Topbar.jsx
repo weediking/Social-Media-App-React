@@ -5,11 +5,11 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Shadow</span>
+        <span className="logo">Shadow </span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          <Search/>
+          <Search className="searchIcon"/>
           <input type="text" placeholder="Search for friend, post or video" className="searchInput" />
         </div>
       </div>
