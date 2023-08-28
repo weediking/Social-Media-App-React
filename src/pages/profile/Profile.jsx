@@ -13,8 +13,8 @@ export default function Profile() {
       <div className="profileRight">
         <div className="profileRightTop">
           <div className="profileCover">
-            <img src="assets/post/3.jpeg" alt="" className="profileCoverImg" />
-            <img src="assets/person/mypic.jpeg" alt="" className="profileUserImg" />
+            <img src="https://i.ibb.co/9Y9HHjX/3.jpg" alt="" className="profileCoverImg" />
+            <img src="https://i.ibb.co/vmZypXX/mypic.jpg" alt="" className="profileUserImg" />
           </div>
           <div className="profileInfo">
             <h4 className="profileInfoName">Waleed Mehmood</h4>
