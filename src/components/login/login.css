@@ -76,7 +76,24 @@
     border: none;
     background-color: #42b72a;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 670px) {
+    .login{
+        align-items: normal;
+        padding-top: 20px;
+    }
+    .loginWrapper{
+        flex-direction: column;
+    }
+    .loginDesc{
+        display: none;
+    }
+    .loginLogo{
+        text-align: center;
+        font-size: 40px;
+    }
 }

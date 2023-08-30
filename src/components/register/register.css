@@ -80,3 +80,26 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 670px) {
+    .login{
+        align-items: normal;
+        padding-top: 20px;
+    }
+    .loginWrapper{
+        flex-direction: column;
+    }
+    .loginDesc{
+        display: none;
+    }
+    .loginBox{
+        height: 350px
+    }
+    .loginRegisterButton{
+        font-size: 16px;
+    }
+    .loginLogo{
+        text-align: center;
+        font-size: 40px;
+    }
+}
